@@ -93,3 +93,8 @@ background-color: #0e76a8 ;
   pointer-events: none;
   cursor: default;
 }
+
+.my-custom-font-size {
+  font-weight: bold;
+  font-size: 1.5rem; /* or any other font size you prefer */
+}

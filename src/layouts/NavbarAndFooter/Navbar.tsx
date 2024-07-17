@@ -89,9 +89,10 @@ export const Navbar = () => {
           </ul>
           <ul className="navbar-nav ms-auto ">
             <li className="nav-item m-1 ">
-              <a type="button" className="btn btn-outline-light custom-nav-link" href="#">
+              <a type="button" className="btn btn-outline-dark custom-nav-link" href="#">
                 Sign In
               </a>
+              
             </li>
           </ul>
         </div>
