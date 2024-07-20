@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductImage from "../../Images/DrugstoreImages/drugstore.jpeg";
+import ProductImage from "../../../Images/DrugstoreImages/drugstore.jpeg";
 
 import {
   MDBCard,

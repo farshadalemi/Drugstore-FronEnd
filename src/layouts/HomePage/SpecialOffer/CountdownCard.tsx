@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import SpecialOffer from "../../Images/PublicImages/special-offer.png";
+import SpecialOffer from "../../../Images/PublicImages/special-offer.png";
 import Countdown from "./Countdown";
 import {
   MDBCard,
@@ -12,7 +12,7 @@ import {
 } from "mdb-react-ui-kit";
 
 const CountdownCard: React.FC = () => {
-  const expirationDate = new Date("2024-08-01T23:59:59");
+  const expirationDate = new Date("2024-12-01T23:59:59");
   const [imageWidth, setImageWidth] = useState<string>("100%");
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const CountdownCard: React.FC = () => {
   }, []);
 
   return (
-    <MDBCard className="bg-danger text-center">
+    <MDBCard className="bg-info text-center">
       <MDBCardBody>
         <MDBCardTitle>Markdown Madness</MDBCardTitle>
         <MDBRipple rippleColor="light" rippleTag="div" className="bg-image">
