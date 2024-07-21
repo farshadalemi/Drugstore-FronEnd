@@ -1,5 +1,6 @@
-import React from 'react';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import React from "react";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import logo from "../../../Images/Logos/zoomin-logo.gif";
 
 export const Footer = () => {
   return (
@@ -9,31 +10,47 @@ export const Footer = () => {
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold">About Us</h5>
             <p>
-              At our online drugstore, we are dedicated to providing high-quality
-              healthcare products and services to our customers. We strive to
-              deliver a convenient and reliable shopping experience.
+              At our online drugstore, we are dedicated to providing
+              high-quality healthcare products and services to our customers. We
+              strive to deliver a convenient and reliable shopping experience.
             </p>
           </div>
 
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold">Products</h5>
             <p>
-              <a href="#" className="text-dark" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark"
+                style={{ textDecoration: "none" }}
+              >
                 Prescription Medications
               </a>
             </p>
             <p>
-              <a href="#" className="text-dark" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark"
+                style={{ textDecoration: "none" }}
+              >
                 Over-the-Counter Drugs
               </a>
             </p>
             <p>
-              <a href="#" className="text-dark" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark"
+                style={{ textDecoration: "none" }}
+              >
                 Health & Beauty
               </a>
             </p>
             <p>
-              <a href="#" className="text-dark" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark"
+                style={{ textDecoration: "none" }}
+              >
                 Baby & Child Care
               </a>
             </p>
@@ -58,16 +75,32 @@ export const Footer = () => {
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
             <h5 className="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
             <div className="justify-content-center justify-content-md-start ">
-              <a href="#" className="text-dark mr-4" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark mr-4"
+                style={{ textDecoration: "none" }}
+              >
                 <i className="bi bi-facebook fs-2 m-2"></i>
               </a>
-              <a href="#" className="text-dark mr-4" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark mr-4"
+                style={{ textDecoration: "none" }}
+              >
                 <i className="bi bi-twitter-x fs-2 m-2"></i>
               </a>
-              <a href="#" className="text-dark mr-4" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark mr-4"
+                style={{ textDecoration: "none" }}
+              >
                 <i className="bi bi-instagram fs-2 m-2"></i>
               </a>
-              <a href="#" className="text-dark mr-4" style={{ textDecoration: 'none' }}>
+              <a
+                href="#"
+                className="text-dark mr-4"
+                style={{ textDecoration: "none" }}
+              >
                 <i className="bi bi-linkedin fs-2 m-2"></i>
               </a>
             </div>
@@ -77,11 +110,23 @@ export const Footer = () => {
         <hr className="mb-4" />
 
         <div className="row align-items-center">
+         
           <div className="col-md-7 col-lg-8">
+            
             <p>
-              Copyright &copy; {new Date().getFullYear()} All rights reserved by:
-              <a href="#" style={{ textDecoration: 'none' }}>
-                <strong className="text-dark">Online Drugstore</strong>
+            <span className="navbar-brand">
+                  <img
+                    src={logo}
+                    alt=""
+                    className="hover-img"
+                    style={{ width: "75px", height: "auto" }}
+                  />
+                </span>
+              Copyright &copy; {new Date().getFullYear()} All rights reserved
+              by:
+              <a href="#" style={{ textDecoration: "none" }}>
+
+                <strong className="text-dark"> Online Drugstore </strong>
               </a>
             </p>
           </div>
@@ -90,12 +135,20 @@ export const Footer = () => {
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
-                  <a href="#" className="text-dark" style={{ textDecoration: 'none' }}>
+                  <a
+                    href="#"
+                    className="text-dark"
+                    style={{ textDecoration: "none" }}
+                  >
                     Privacy Policy
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#" className="text-dark" style={{ textDecoration: 'none' }}>
+                  <a
+                    href="#"
+                    className="text-dark"
+                    style={{ textDecoration: "none" }}
+                  >
                     Terms of Service
                   </a>
                 </li>
@@ -107,4 +160,3 @@ export const Footer = () => {
     </footer>
   );
 };
-
