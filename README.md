@@ -1,6 +1,6 @@
 # Drugstore WebApplication
 ---------------------------------------
-![My Image](public/Landing-Page.png)
+![My Image](public/LandingPage.png)
 ---------------------------------------
 
 
